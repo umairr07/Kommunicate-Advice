@@ -36,7 +36,7 @@ function Advice() {
               <h2 className="text-lg font-bold text-[#2AF598]">
                 ADIVCE #{advice.slip.id}
               </h2>
-              <p className="text-white text-center mt-6 text-xl">
+              <p className="text-white text-center mt-6 lg:text-xl sm:text-sm">
                 {advice.slip.advice}
               </p>
               <div className="mt-10">
